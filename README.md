@@ -1,2 +1,2 @@
 # Vue_Echarts_Visualization
-Vue_Echarts_Visualization
+Vue_Echarts_Visualization 采用vite+vue3是一款完整度高的大屏可视化项目，thress.js不是很懂，弄了个，但是没显示

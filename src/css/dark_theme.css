@@ -1,0 +1,150 @@
+@charset "utf-8";
+
+.dark {
+	background: #000000;
+	color: #fff;
+}
+
+.dark .title {
+	text-align: center;
+	color: #fff;
+	font-size: 2.4rem;
+}
+
+.dark .title {
+	height: 6vh;
+	position: relative;
+	border-bottom: 0.1vh solid #47f9f18a;
+}
+
+.dark .title .time_div {
+	line-height: 6vh;
+	height: 6vh;
+	width: 7vw;
+	margin-right: 0.5vw;
+}
+
+.dark .title .time {
+	font-size: 1.4rem;
+	text-align: right;
+	line-height: 2vh;
+	text-align: center;
+	padding-top: 1vh;
+}
+
+
+.dark .title .time .date_text{
+	font-size: 1.2rem;
+	color: #fff;
+	line-height: 3vh;
+}
+
+.dark .title .weather_div{
+	line-height: 6vh;
+	height: 6vh;
+	width: 6vw;
+	margin-right: 0.5vw;
+}
+.dark .title .weather_div .icon{
+	font-size: 3rem;
+	color: #00FAC1;
+}
+
+.dark .title .weather_div .weathertext{
+	font-size: 1.4rem;
+	line-height: 2vh;
+	text-align: center;
+}
+
+
+.dark .title .menus_div {
+	height: 6vh;
+	width: 45vw;
+}
+.dark .title .menus .menu_item {
+	height: 3vh;
+	line-height: 3vh;
+	font-size: 1.4rem;
+	margin: 0 auto;
+	width: 90%;
+	background: rgba(255, 255, 255, 0.3);
+	border-radius: 3px;
+	margin-top: 1.5vh;
+	cursor: pointer;
+}
+
+.dark .title .menus .menu_item:hover {
+	background: #109980;
+}
+
+.dark .title .menus .menu_item_selected {
+	background: #109980;
+}
+
+.dark .title .tools {
+	height: 6vh;
+	line-height: 6vh;
+}
+
+.dark .title .tool_item {
+	font-size: 1.4rem;
+	cursor: pointer;
+	line-height: 2vh;
+	text-align: center;
+	padding-top: 0.2vh;
+}
+
+.dark .title .tool_item i {
+	height: 3vh;
+	line-height: 3vh;
+	font-size: 1.8rem;
+}
+
+.dark .title .tool_item:hover {
+	color: #109980;
+}
+
+.dark .setting_panel {}
+
+.dark .setting_panel .setting_panel_maker {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+}
+
+.dark .setting_panel .inner_contaner {
+	position: fixed;
+	background: #47f9c861;
+	border-radius: 0.5vh;
+	z-index: 2;
+	box-shadow: 0 0.2vw 1vh 0 rgba(0, 0, 0, 0.1);
+}
+
+.dark .setting_panel .inner_contaner .settingPanelCloseBtn {
+	position: absolute;
+	right: -1vh;
+	top: -1vh;
+	cursor: pointer;
+}
+
+.dark .setting_panel .inner_contaner .settingPanelCloseBtn:hover {
+	color: #109980;
+}
+
+.dark .setting_panel .inner_contaner .setting_panel_title {
+	height: 6vh;;
+	line-height: 6vh;;
+	text-align: center;
+	font-size: 2rem;
+}
+
+.dark .setting_panel .inner_contaner .settingForm {
+	padding-right: 7vw;
+}
+
+.dark .setting_panel .inner_contaner .settingForm .el-form-item__label {
+	color: #fff;
+}
